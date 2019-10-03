@@ -24,12 +24,6 @@ public class getOrderController {
     @RequestMapping("/getorder")
     @ResponseBody
     public List<UserAddress> getOrder() throws InterruptedException {
-        int i=0;
-        while (i<1000000){
-             orderService.initOrder("1");
-             i++;
-        }
         return orderService.initOrder("1");
-
     }
 }
