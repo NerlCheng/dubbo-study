@@ -14,7 +14,7 @@
     <dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
     <!--4、指定暴露的服务端口,这里暴露的接口的全限定名，ref 指向真正服务的对象-->
     <dubbo:service interface="com.nerl.gmall.service.UserService" ref="userServiceImpl"></dubbo:service>
-    <bean id="userServiceImpl" class="com.nerl.gmall.service.impl.UserServiceImpl"></bean>
+    <bean id="userServiceImpl" class="com.nerl.gmall.service.UserServiceImpl"></bean>
 
     <!--5、配置监控中心的两种方式：-->
             <!--参考：http://dubbo.apache.org/zh-cn/docs/user/references/xml/dubbo-monitor.html-->
