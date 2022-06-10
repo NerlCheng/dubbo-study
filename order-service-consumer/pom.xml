@@ -25,7 +25,7 @@
     <dependency>
         <groupId>com.alibaba</groupId>
         <artifactId>dubbo</artifactId>
-        <version>2.6.2</version>
+        <version>2.6.12</version>
     </dependency>
     <!--注册中心为zk，需要导入操作zk的客户端，2.5及以前版本使用的zkclient，dubbo2.6.X 以后使用的是curator-->
     <dependency>
